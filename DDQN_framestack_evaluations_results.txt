@@ -1,0 +1,482 @@
+(gymenv) C:\Users\Chris\OneDrive\Desktop\validate_gym>python -u "c:\Users\Chris\OneDrive\Desktop\validate_gym\DDQN_framestack_evaluation.py"
+2025-01-02 14:10:30.055974: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-01-02 14:10:32.687506: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+
+Evaluating model: ddqn_speed_100.h5
+2025-01-02 14:10:38.783811: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_100.h5
+ evaluating...
+[Eval] Model: ddqn_speed_100.h5, Episode 1/20 - Reward: -86.75
+[Eval] Model: ddqn_speed_100.h5, Episode 2/20 - Reward: -47.96
+[Eval] Model: ddqn_speed_100.h5, Episode 3/20 - Reward: -37.50
+[Eval] Model: ddqn_speed_100.h5, Episode 4/20 - Reward: -48.72
+[Eval] Model: ddqn_speed_100.h5, Episode 5/20 - Reward: -91.04
+[Eval] Model: ddqn_speed_100.h5, Episode 6/20 - Reward: -53.70
+[Eval] Model: ddqn_speed_100.h5, Episode 7/20 - Reward: 177.98
+[Eval] Model: ddqn_speed_100.h5, Episode 8/20 - Reward: -48.33
+[Eval] Model: ddqn_speed_100.h5, Episode 9/20 - Reward: -50.38
+[Eval] Model: ddqn_speed_100.h5, Episode 10/20 - Reward: 164.23
+[Eval] Model: ddqn_speed_100.h5, Episode 11/20 - Reward: -89.25
+[Eval] Model: ddqn_speed_100.h5, Episode 12/20 - Reward: -47.92
+[Eval] Model: ddqn_speed_100.h5, Episode 13/20 - Reward: -34.48
+[Eval] Model: ddqn_speed_100.h5, Episode 14/20 - Reward: 23.24
+[Eval] Model: ddqn_speed_100.h5, Episode 15/20 - Reward: -89.69
+[Eval] Model: ddqn_speed_100.h5, Episode 16/20 - Reward: 164.81
+[Eval] Model: ddqn_speed_100.h5, Episode 17/20 - Reward: -89.97
+[Eval] Model: ddqn_speed_100.h5, Episode 18/20 - Reward: 67.33
+[Eval] Model: ddqn_speed_100.h5, Episode 19/20 - Reward: 142.31
+[Eval] Model: ddqn_speed_100.h5, Episode 20/20 - Reward: -43.75
+
+Evaluation Complete for: ddqn_speed_100.h5
+Average Reward over 20 episodes: -5.98
+Highest Reward over 20 episodes: 177.98
+
+
+Evaluating model: ddqn_speed_300.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_300.h5
+ evaluating...
+[Eval] Model: ddqn_speed_300.h5, Episode 1/20 - Reward: -66.89
+[Eval] Model: ddqn_speed_300.h5, Episode 2/20 - Reward: -72.13
+[Eval] Model: ddqn_speed_300.h5, Episode 3/20 - Reward: -90.23
+[Eval] Model: ddqn_speed_300.h5, Episode 4/20 - Reward: -64.79
+[Eval] Model: ddqn_speed_300.h5, Episode 5/20 - Reward: -77.78
+[Eval] Model: ddqn_speed_300.h5, Episode 6/20 - Reward: -70.59
+[Eval] Model: ddqn_speed_300.h5, Episode 7/20 - Reward: 4.69
+[Eval] Model: ddqn_speed_300.h5, Episode 8/20 - Reward: -68.20
+[Eval] Model: ddqn_speed_300.h5, Episode 9/20 - Reward: -63.64
+[Eval] Model: ddqn_speed_300.h5, Episode 10/20 - Reward: -66.22
+[Eval] Model: ddqn_speed_300.h5, Episode 11/20 - Reward: -71.34
+[Eval] Model: ddqn_speed_300.h5, Episode 12/20 - Reward: -68.05
+[Eval] Model: ddqn_speed_300.h5, Episode 13/20 - Reward: -68.31
+[Eval] Model: ddqn_speed_300.h5, Episode 14/20 - Reward: -85.92
+[Eval] Model: ddqn_speed_300.h5, Episode 15/20 - Reward: -64.17
+[Eval] Model: ddqn_speed_300.h5, Episode 16/20 - Reward: -69.04
+[Eval] Model: ddqn_speed_300.h5, Episode 17/20 - Reward: -18.09
+[Eval] Model: ddqn_speed_300.h5, Episode 18/20 - Reward: -24.05
+[Eval] Model: ddqn_speed_300.h5, Episode 19/20 - Reward: -77.08
+[Eval] Model: ddqn_speed_300.h5, Episode 20/20 - Reward: -71.43
+
+Evaluation Complete for: ddqn_speed_300.h5
+Average Reward over 20 episodes: -62.66
+Highest Reward over 20 episodes: 4.69
+
+
+Evaluating model: ddqn_speed_500.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_500.h5
+ evaluating...
+[Eval] Model: ddqn_speed_500.h5, Episode 1/20 - Reward: -19.46
+[Eval] Model: ddqn_speed_500.h5, Episode 2/20 - Reward: 12.32
+[Eval] Model: ddqn_speed_500.h5, Episode 3/20 - Reward: 15.94
+[Eval] Model: ddqn_speed_500.h5, Episode 4/20 - Reward: 45.10
+[Eval] Model: ddqn_speed_500.h5, Episode 5/20 - Reward: 91.78
+[Eval] Model: ddqn_speed_500.h5, Episode 6/20 - Reward: 371.01
+[Eval] Model: ddqn_speed_500.h5, Episode 7/20 - Reward: -78.75
+[Eval] Model: ddqn_speed_500.h5, Episode 8/20 - Reward: 93.33
+[Eval] Model: ddqn_speed_500.h5, Episode 9/20 - Reward: -39.07
+[Eval] Model: ddqn_speed_500.h5, Episode 10/20 - Reward: 169.90
+[Eval] Model: ddqn_speed_500.h5, Episode 11/20 - Reward: -23.08
+[Eval] Model: ddqn_speed_500.h5, Episode 12/20 - Reward: -14.18
+[Eval] Model: ddqn_speed_500.h5, Episode 13/20 - Reward: -66.33
+[Eval] Model: ddqn_speed_500.h5, Episode 14/20 - Reward: 235.82
+[Eval] Model: ddqn_speed_500.h5, Episode 15/20 - Reward: 21.50
+[Eval] Model: ddqn_speed_500.h5, Episode 16/20 - Reward: -20.53
+[Eval] Model: ddqn_speed_500.h5, Episode 17/20 - Reward: -39.50
+[Eval] Model: ddqn_speed_500.h5, Episode 18/20 - Reward: 125.81
+[Eval] Model: ddqn_speed_500.h5, Episode 19/20 - Reward: -19.58
+[Eval] Model: ddqn_speed_500.h5, Episode 20/20 - Reward: 553.57
+
+Evaluation Complete for: ddqn_speed_500.h5
+Average Reward over 20 episodes: 70.78
+Highest Reward over 20 episodes: 553.57
+
+
+Evaluating model: ddqn_speed_750.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_750.h5
+ evaluating...
+[Eval] Model: ddqn_speed_750.h5, Episode 1/20 - Reward: 243.15
+[Eval] Model: ddqn_speed_750.h5, Episode 2/20 - Reward: 673.58
+[Eval] Model: ddqn_speed_750.h5, Episode 3/20 - Reward: 533.80
+[Eval] Model: ddqn_speed_750.h5, Episode 4/20 - Reward: 736.88
+[Eval] Model: ddqn_speed_750.h5, Episode 5/20 - Reward: 852.05
+[Eval] Model: ddqn_speed_750.h5, Episode 6/20 - Reward: 37.81
+[Eval] Model: ddqn_speed_750.h5, Episode 7/20 - Reward: 621.68
+[Eval] Model: ddqn_speed_750.h5, Episode 8/20 - Reward: 521.36
+[Eval] Model: ddqn_speed_750.h5, Episode 9/20 - Reward: 878.57
+[Eval] Model: ddqn_speed_750.h5, Episode 10/20 - Reward: 55.34
+[Eval] Model: ddqn_speed_750.h5, Episode 11/20 - Reward: 816.93
+[Eval] Model: ddqn_speed_750.h5, Episode 12/20 - Reward: 396.30
+[Eval] Model: ddqn_speed_750.h5, Episode 13/20 - Reward: 862.33
+[Eval] Model: ddqn_speed_750.h5, Episode 14/20 - Reward: 607.64
+[Eval] Model: ddqn_speed_750.h5, Episode 15/20 - Reward: 828.80
+[Eval] Model: ddqn_speed_750.h5, Episode 16/20 - Reward: 52.61
+[Eval] Model: ddqn_speed_750.h5, Episode 17/20 - Reward: 610.53
+[Eval] Model: ddqn_speed_750.h5, Episode 18/20 - Reward: 830.69
+[Eval] Model: ddqn_speed_750.h5, Episode 19/20 - Reward: 794.56
+[Eval] Model: ddqn_speed_750.h5, Episode 20/20 - Reward: 474.53
+
+Evaluation Complete for: ddqn_speed_750.h5
+Average Reward over 20 episodes: 571.46
+Highest Reward over 20 episodes: 878.57
+
+
+Evaluating model: ddqn_speed_1000.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1000.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1000.h5, Episode 1/20 - Reward: 542.41
+[Eval] Model: ddqn_speed_1000.h5, Episode 2/20 - Reward: 521.43
+[Eval] Model: ddqn_speed_1000.h5, Episode 3/20 - Reward: -4.29
+[Eval] Model: ddqn_speed_1000.h5, Episode 4/20 - Reward: 481.82
+[Eval] Model: ddqn_speed_1000.h5, Episode 5/20 - Reward: 724.37
+[Eval] Model: ddqn_speed_1000.h5, Episode 6/20 - Reward: 519.05
+[Eval] Model: ddqn_speed_1000.h5, Episode 7/20 - Reward: 808.40
+[Eval] Model: ddqn_speed_1000.h5, Episode 8/20 - Reward: 666.39
+[Eval] Model: ddqn_speed_1000.h5, Episode 9/20 - Reward: 419.29
+[Eval] Model: ddqn_speed_1000.h5, Episode 10/20 - Reward: 632.60
+[Eval] Model: ddqn_speed_1000.h5, Episode 11/20 - Reward: 558.39
+[Eval] Model: ddqn_speed_1000.h5, Episode 12/20 - Reward: 809.40
+[Eval] Model: ddqn_speed_1000.h5, Episode 13/20 - Reward: 709.03
+[Eval] Model: ddqn_speed_1000.h5, Episode 14/20 - Reward: 659.54
+[Eval] Model: ddqn_speed_1000.h5, Episode 15/20 - Reward: 457.76
+[Eval] Model: ddqn_speed_1000.h5, Episode 16/20 - Reward: 21.00
+[Eval] Model: ddqn_speed_1000.h5, Episode 17/20 - Reward: 203.75
+[Eval] Model: ddqn_speed_1000.h5, Episode 18/20 - Reward: 512.24
+[Eval] Model: ddqn_speed_1000.h5, Episode 19/20 - Reward: 845.45
+[Eval] Model: ddqn_speed_1000.h5, Episode 20/20 - Reward: 683.22
+
+Evaluation Complete for: ddqn_speed_1000.h5
+Average Reward over 20 episodes: 538.56
+Highest Reward over 20 episodes: 845.45
+
+
+Evaluating model: ddqn_speed_1250.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1250.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1250.h5, Episode 1/20 - Reward: 429.60
+[Eval] Model: ddqn_speed_1250.h5, Episode 2/20 - Reward: 391.58
+[Eval] Model: ddqn_speed_1250.h5, Episode 3/20 - Reward: -71.93
+[Eval] Model: ddqn_speed_1250.h5, Episode 4/20 - Reward: 202.47
+[Eval] Model: ddqn_speed_1250.h5, Episode 5/20 - Reward: 603.47
+[Eval] Model: ddqn_speed_1250.h5, Episode 6/20 - Reward: 525.00
+[Eval] Model: ddqn_speed_1250.h5, Episode 7/20 - Reward: 268.03
+[Eval] Model: ddqn_speed_1250.h5, Episode 8/20 - Reward: 451.83
+[Eval] Model: ddqn_speed_1250.h5, Episode 9/20 - Reward: 145.61
+[Eval] Model: ddqn_speed_1250.h5, Episode 10/20 - Reward: 579.39
+[Eval] Model: ddqn_speed_1250.h5, Episode 11/20 - Reward: 308.60
+[Eval] Model: ddqn_speed_1250.h5, Episode 12/20 - Reward: 444.64
+[Eval] Model: ddqn_speed_1250.h5, Episode 13/20 - Reward: 429.22
+[Eval] Model: ddqn_speed_1250.h5, Episode 14/20 - Reward: 575.68
+[Eval] Model: ddqn_speed_1250.h5, Episode 15/20 - Reward: 697.95
+[Eval] Model: ddqn_speed_1250.h5, Episode 16/20 - Reward: 428.30
+[Eval] Model: ddqn_speed_1250.h5, Episode 17/20 - Reward: 577.90
+[Eval] Model: ddqn_speed_1250.h5, Episode 18/20 - Reward: 869.03
+[Eval] Model: ddqn_speed_1250.h5, Episode 19/20 - Reward: 335.09
+[Eval] Model: ddqn_speed_1250.h5, Episode 20/20 - Reward: 466.31
+
+Evaluation Complete for: ddqn_speed_1250.h5
+Average Reward over 20 episodes: 432.89
+Highest Reward over 20 episodes: 869.03
+
+
+Evaluating model: ddqn_speed_1300.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1300.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1300.h5, Episode 1/20 - Reward: 597.32
+[Eval] Model: ddqn_speed_1300.h5, Episode 2/20 - Reward: 474.60
+[Eval] Model: ddqn_speed_1300.h5, Episode 3/20 - Reward: 279.93
+[Eval] Model: ddqn_speed_1300.h5, Episode 4/20 - Reward: 284.62
+[Eval] Model: ddqn_speed_1300.h5, Episode 5/20 - Reward: 500.72
+[Eval] Model: ddqn_speed_1300.h5, Episode 6/20 - Reward: 466.55
+[Eval] Model: ddqn_speed_1300.h5, Episode 7/20 - Reward: 395.02
+[Eval] Model: ddqn_speed_1300.h5, Episode 8/20 - Reward: 679.78
+[Eval] Model: ddqn_speed_1300.h5, Episode 9/20 - Reward: 279.66
+[Eval] Model: ddqn_speed_1300.h5, Episode 10/20 - Reward: 496.09
+[Eval] Model: ddqn_speed_1300.h5, Episode 11/20 - Reward: 707.14
+[Eval] Model: ddqn_speed_1300.h5, Episode 12/20 - Reward: 385.98
+[Eval] Model: ddqn_speed_1300.h5, Episode 13/20 - Reward: 612.28
+[Eval] Model: ddqn_speed_1300.h5, Episode 14/20 - Reward: 34.48
+[Eval] Model: ddqn_speed_1300.h5, Episode 15/20 - Reward: 76.87
+[Eval] Model: ddqn_speed_1300.h5, Episode 16/20 - Reward: 553.47
+[Eval] Model: ddqn_speed_1300.h5, Episode 17/20 - Reward: 441.42
+[Eval] Model: ddqn_speed_1300.h5, Episode 18/20 - Reward: 433.95
+[Eval] Model: ddqn_speed_1300.h5, Episode 19/20 - Reward: 478.72
+[Eval] Model: ddqn_speed_1300.h5, Episode 20/20 - Reward: 441.96
+
+Evaluation Complete for: ddqn_speed_1300.h5
+Average Reward over 20 episodes: 431.03
+Highest Reward over 20 episodes: 707.14
+
+
+Evaluating model: ddqn_speed_1350.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1350.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1350.h5, Episode 1/20 - Reward: 486.72
+[Eval] Model: ddqn_speed_1350.h5, Episode 2/20 - Reward: 450.00
+[Eval] Model: ddqn_speed_1350.h5, Episode 3/20 - Reward: 410.07
+[Eval] Model: ddqn_speed_1350.h5, Episode 4/20 - Reward: 472.82
+[Eval] Model: ddqn_speed_1350.h5, Episode 5/20 - Reward: 586.08
+[Eval] Model: ddqn_speed_1350.h5, Episode 6/20 - Reward: -45.56
+[Eval] Model: ddqn_speed_1350.h5, Episode 7/20 - Reward: 257.40
+[Eval] Model: ddqn_speed_1350.h5, Episode 8/20 - Reward: -52.38
+[Eval] Model: ddqn_speed_1350.h5, Episode 9/20 - Reward: 555.05
+[Eval] Model: ddqn_speed_1350.h5, Episode 10/20 - Reward: 492.73
+[Eval] Model: ddqn_speed_1350.h5, Episode 11/20 - Reward: 204.03
+[Eval] Model: ddqn_speed_1350.h5, Episode 12/20 - Reward: 445.99
+[Eval] Model: ddqn_speed_1350.h5, Episode 13/20 - Reward: 219.88
+[Eval] Model: ddqn_speed_1350.h5, Episode 14/20 - Reward: -39.80
+[Eval] Model: ddqn_speed_1350.h5, Episode 15/20 - Reward: 479.86
+[Eval] Model: ddqn_speed_1350.h5, Episode 16/20 - Reward: 632.60
+[Eval] Model: ddqn_speed_1350.h5, Episode 17/20 - Reward: 524.56
+[Eval] Model: ddqn_speed_1350.h5, Episode 18/20 - Reward: 443.17
+[Eval] Model: ddqn_speed_1350.h5, Episode 19/20 - Reward: 267.09
+[Eval] Model: ddqn_speed_1350.h5, Episode 20/20 - Reward: 736.00
+
+Evaluation Complete for: ddqn_speed_1350.h5
+Average Reward over 20 episodes: 376.32
+Highest Reward over 20 episodes: 736.00
+
+
+Evaluating model: ddqn_speed_1400.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1400.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1400.h5, Episode 1/20 - Reward: 726.09
+[Eval] Model: ddqn_speed_1400.h5, Episode 2/20 - Reward: 726.09
+[Eval] Model: ddqn_speed_1400.h5, Episode 3/20 - Reward: 782.78
+[Eval] Model: ddqn_speed_1400.h5, Episode 4/20 - Reward: -7.30
+[Eval] Model: ddqn_speed_1400.h5, Episode 5/20 - Reward: 781.29
+[Eval] Model: ddqn_speed_1400.h5, Episode 6/20 - Reward: 596.97
+[Eval] Model: ddqn_speed_1400.h5, Episode 7/20 - Reward: 799.65
+[Eval] Model: ddqn_speed_1400.h5, Episode 8/20 - Reward: 778.89
+[Eval] Model: ddqn_speed_1400.h5, Episode 9/20 - Reward: 81.74
+[Eval] Model: ddqn_speed_1400.h5, Episode 10/20 - Reward: 228.20
+[Eval] Model: ddqn_speed_1400.h5, Episode 11/20 - Reward: 680.07
+[Eval] Model: ddqn_speed_1400.h5, Episode 12/20 - Reward: 746.43
+[Eval] Model: ddqn_speed_1400.h5, Episode 13/20 - Reward: 594.74
+[Eval] Model: ddqn_speed_1400.h5, Episode 14/20 - Reward: 385.25
+[Eval] Model: ddqn_speed_1400.h5, Episode 15/20 - Reward: 571.64
+[Eval] Model: ddqn_speed_1400.h5, Episode 16/20 - Reward: 400.00
+[Eval] Model: ddqn_speed_1400.h5, Episode 17/20 - Reward: 300.62
+[Eval] Model: ddqn_speed_1400.h5, Episode 18/20 - Reward: 430.74
+[Eval] Model: ddqn_speed_1400.h5, Episode 19/20 - Reward: 665.89
+[Eval] Model: ddqn_speed_1400.h5, Episode 20/20 - Reward: 409.91
+
+Evaluation Complete for: ddqn_speed_1400.h5
+Average Reward over 20 episodes: 533.98
+Highest Reward over 20 episodes: 799.65
+
+
+Evaluating model: ddqn_speed_1450.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1450.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1450.h5, Episode 1/20 - Reward: 793.10
+[Eval] Model: ddqn_speed_1450.h5, Episode 2/20 - Reward: 453.96
+[Eval] Model: ddqn_speed_1450.h5, Episode 3/20 - Reward: 833.99
+[Eval] Model: ddqn_speed_1450.h5, Episode 4/20 - Reward: 448.08
+[Eval] Model: ddqn_speed_1450.h5, Episode 5/20 - Reward: 252.73
+[Eval] Model: ddqn_speed_1450.h5, Episode 6/20 - Reward: 634.48
+[Eval] Model: ddqn_speed_1450.h5, Episode 7/20 - Reward: 627.57
+[Eval] Model: ddqn_speed_1450.h5, Episode 8/20 - Reward: 153.60
+[Eval] Model: ddqn_speed_1450.h5, Episode 9/20 - Reward: 857.75
+[Eval] Model: ddqn_speed_1450.h5, Episode 10/20 - Reward: 854.72
+[Eval] Model: ddqn_speed_1450.h5, Episode 11/20 - Reward: 883.81
+[Eval] Model: ddqn_speed_1450.h5, Episode 12/20 - Reward: 817.86
+[Eval] Model: ddqn_speed_1450.h5, Episode 13/20 - Reward: 674.91
+[Eval] Model: ddqn_speed_1450.h5, Episode 14/20 - Reward: 411.04
+[Eval] Model: ddqn_speed_1450.h5, Episode 15/20 - Reward: 794.93
+[Eval] Model: ddqn_speed_1450.h5, Episode 16/20 - Reward: 874.73
+[Eval] Model: ddqn_speed_1450.h5, Episode 17/20 - Reward: 274.10
+[Eval] Model: ddqn_speed_1450.h5, Episode 18/20 - Reward: 743.95
+[Eval] Model: ddqn_speed_1450.h5, Episode 19/20 - Reward: 532.65
+[Eval] Model: ddqn_speed_1450.h5, Episode 20/20 - Reward: 677.43
+
+Evaluation Complete for: ddqn_speed_1450.h5
+Average Reward over 20 episodes: 629.77
+Highest Reward over 20 episodes: 883.81
+
+
+Evaluating model: ddqn_speed_1500.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1500.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1500.h5, Episode 1/20 - Reward: 712.10
+[Eval] Model: ddqn_speed_1500.h5, Episode 2/20 - Reward: 573.61
+[Eval] Model: ddqn_speed_1500.h5, Episode 3/20 - Reward: 753.66
+[Eval] Model: ddqn_speed_1500.h5, Episode 4/20 - Reward: 185.71
+[Eval] Model: ddqn_speed_1500.h5, Episode 5/20 - Reward: 324.75
+[Eval] Model: ddqn_speed_1500.h5, Episode 6/20 - Reward: 910.40
+[Eval] Model: ddqn_speed_1500.h5, Episode 7/20 - Reward: 779.00
+[Eval] Model: ddqn_speed_1500.h5, Episode 8/20 - Reward: 321.05
+[Eval] Model: ddqn_speed_1500.h5, Episode 9/20 - Reward: 374.03
+[Eval] Model: ddqn_speed_1500.h5, Episode 10/20 - Reward: 701.22
+[Eval] Model: ddqn_speed_1500.h5, Episode 11/20 - Reward: 772.41
+[Eval] Model: ddqn_speed_1500.h5, Episode 12/20 - Reward: 179.31
+[Eval] Model: ddqn_speed_1500.h5, Episode 13/20 - Reward: 643.49
+[Eval] Model: ddqn_speed_1500.h5, Episode 14/20 - Reward: 507.27
+[Eval] Model: ddqn_speed_1500.h5, Episode 15/20 - Reward: 876.90
+[Eval] Model: ddqn_speed_1500.h5, Episode 16/20 - Reward: 640.74
+[Eval] Model: ddqn_speed_1500.h5, Episode 17/20 - Reward: 840.77
+[Eval] Model: ddqn_speed_1500.h5, Episode 18/20 - Reward: -17.49
+[Eval] Model: ddqn_speed_1500.h5, Episode 19/20 - Reward: 646.43
+[Eval] Model: ddqn_speed_1500.h5, Episode 20/20 - Reward: 908.70
+
+Evaluation Complete for: ddqn_speed_1500.h5
+Average Reward over 20 episodes: 581.70
+Highest Reward over 20 episodes: 910.40
+
+
+Evaluating model: ddqn_speed_1550.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1550.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1550.h5, Episode 1/20 - Reward: 379.87
+[Eval] Model: ddqn_speed_1550.h5, Episode 2/20 - Reward: 554.61
+[Eval] Model: ddqn_speed_1550.h5, Episode 3/20 - Reward: 503.96
+[Eval] Model: ddqn_speed_1550.h5, Episode 4/20 - Reward: 265.31
+[Eval] Model: ddqn_speed_1550.h5, Episode 5/20 - Reward: 255.26
+[Eval] Model: ddqn_speed_1550.h5, Episode 6/20 - Reward: 50.35
+[Eval] Model: ddqn_speed_1550.h5, Episode 7/20 - Reward: 480.07
+[Eval] Model: ddqn_speed_1550.h5, Episode 8/20 - Reward: 21.79
+[Eval] Model: ddqn_speed_1550.h5, Episode 9/20 - Reward: 597.76
+[Eval] Model: ddqn_speed_1550.h5, Episode 10/20 - Reward: 500.88
+[Eval] Model: ddqn_speed_1550.h5, Episode 11/20 - Reward: 400.00
+[Eval] Model: ddqn_speed_1550.h5, Episode 12/20 - Reward: 584.04
+[Eval] Model: ddqn_speed_1550.h5, Episode 13/20 - Reward: 412.03
+[Eval] Model: ddqn_speed_1550.h5, Episode 14/20 - Reward: 203.98
+[Eval] Model: ddqn_speed_1550.h5, Episode 15/20 - Reward: 503.90
+[Eval] Model: ddqn_speed_1550.h5, Episode 16/20 - Reward: 347.81
+[Eval] Model: ddqn_speed_1550.h5, Episode 17/20 - Reward: 414.60
+[Eval] Model: ddqn_speed_1550.h5, Episode 18/20 - Reward: 427.68
+[Eval] Model: ddqn_speed_1550.h5, Episode 19/20 - Reward: 586.79
+[Eval] Model: ddqn_speed_1550.h5, Episode 20/20 - Reward: 333.96
+
+Evaluation Complete for: ddqn_speed_1550.h5
+Average Reward over 20 episodes: 391.23
+Highest Reward over 20 episodes: 597.76
+
+
+Evaluating model: ddqn_speed_1750.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_1750.h5
+ evaluating...
+[Eval] Model: ddqn_speed_1750.h5, Episode 1/20 - Reward: 825.00
+[Eval] Model: ddqn_speed_1750.h5, Episode 2/20 - Reward: 112.84
+[Eval] Model: ddqn_speed_1750.h5, Episode 3/20 - Reward: 641.57
+[Eval] Model: ddqn_speed_1750.h5, Episode 4/20 - Reward: 238.23
+[Eval] Model: ddqn_speed_1750.h5, Episode 5/20 - Reward: -80.84
+[Eval] Model: ddqn_speed_1750.h5, Episode 6/20 - Reward: 346.15
+[Eval] Model: ddqn_speed_1750.h5, Episode 7/20 - Reward: 367.58
+[Eval] Model: ddqn_speed_1750.h5, Episode 8/20 - Reward: 315.28
+[Eval] Model: ddqn_speed_1750.h5, Episode 9/20 - Reward: 848.10
+[Eval] Model: ddqn_speed_1750.h5, Episode 10/20 - Reward: 671.63
+[Eval] Model: ddqn_speed_1750.h5, Episode 11/20 - Reward: 721.68
+[Eval] Model: ddqn_speed_1750.h5, Episode 12/20 - Reward: 694.87
+[Eval] Model: ddqn_speed_1750.h5, Episode 13/20 - Reward: 451.50
+[Eval] Model: ddqn_speed_1750.h5, Episode 14/20 - Reward: -1.87
+[Eval] Model: ddqn_speed_1750.h5, Episode 15/20 - Reward: 713.19
+[Eval] Model: ddqn_speed_1750.h5, Episode 16/20 - Reward: 540.38
+[Eval] Model: ddqn_speed_1750.h5, Episode 17/20 - Reward: 757.61
+[Eval] Model: ddqn_speed_1750.h5, Episode 18/20 - Reward: 827.01
+[Eval] Model: ddqn_speed_1750.h5, Episode 19/20 - Reward: 737.37
+[Eval] Model: ddqn_speed_1750.h5, Episode 20/20 - Reward: 314.04
+
+Evaluation Complete for: ddqn_speed_1750.h5
+Average Reward over 20 episodes: 502.06
+Highest Reward over 20 episodes: 848.10
+
+
+Evaluating model: ddqn_speed_2000.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from ddqn_speed_2000.h5
+ evaluating...
+[Eval] Model: ddqn_speed_2000.h5, Episode 1/20 - Reward: 278.84
+[Eval] Model: ddqn_speed_2000.h5, Episode 2/20 - Reward: 581.53
+[Eval] Model: ddqn_speed_2000.h5, Episode 3/20 - Reward: 523.62
+[Eval] Model: ddqn_speed_2000.h5, Episode 4/20 - Reward: 271.52
+[Eval] Model: ddqn_speed_2000.h5, Episode 5/20 - Reward: 525.00
+[Eval] Model: ddqn_speed_2000.h5, Episode 6/20 - Reward: 284.08
+[Eval] Model: ddqn_speed_2000.h5, Episode 7/20 - Reward: 293.13
+[Eval] Model: ddqn_speed_2000.h5, Episode 8/20 - Reward: 336.43
+[Eval] Model: ddqn_speed_2000.h5, Episode 9/20 - Reward: 619.70
+[Eval] Model: ddqn_speed_2000.h5, Episode 10/20 - Reward: 44.44
+[Eval] Model: ddqn_speed_2000.h5, Episode 11/20 - Reward: 619.10
+[Eval] Model: ddqn_speed_2000.h5, Episode 12/20 - Reward: 451.02
+[Eval] Model: ddqn_speed_2000.h5, Episode 13/20 - Reward: 380.77
+[Eval] Model: ddqn_speed_2000.h5, Episode 14/20 - Reward: 312.64
+[Eval] Model: ddqn_speed_2000.h5, Episode 15/20 - Reward: 323.61
+[Eval] Model: ddqn_speed_2000.h5, Episode 16/20 - Reward: 286.86
+[Eval] Model: ddqn_speed_2000.h5, Episode 17/20 - Reward: 505.95
+[Eval] Model: ddqn_speed_2000.h5, Episode 18/20 - Reward: 324.33
+[Eval] Model: ddqn_speed_2000.h5, Episode 19/20 - Reward: 644.36
+[Eval] Model: ddqn_speed_2000.h5, Episode 20/20 - Reward: 327.51
+
+Evaluation Complete for: ddqn_speed_2000.h5
+Average Reward over 20 episodes: 396.72
+Highest Reward over 20 episodes: 644.36
+
+Evaluation Summary:
+
+Model: ddqn_speed_100.h5
+ o Average Reward: -5.98
+ o Best Reward: 177.98
+
+Model: ddqn_speed_300.h5
+ o Average Reward: -62.66
+ o Best Reward: 4.69
+
+Model: ddqn_speed_500.h5
+ o Average Reward: 70.78
+ o Best Reward: 553.57
+
+Model: ddqn_speed_750.h5
+ o Average Reward: 571.46
+ o Best Reward: 878.57
+
+Model: ddqn_speed_1000.h5
+ o Average Reward: 538.56
+ o Best Reward: 845.45
+
+Model: ddqn_speed_1250.h5
+ o Average Reward: 432.89
+ o Best Reward: 869.03
+
+Model: ddqn_speed_1300.h5
+ o Average Reward: 431.03
+ o Best Reward: 707.14
+
+Model: ddqn_speed_1350.h5
+ o Average Reward: 376.32
+ o Best Reward: 736.00
+
+Model: ddqn_speed_1400.h5
+ o Average Reward: 533.98
+ o Best Reward: 799.65
+
+Model: ddqn_speed_1450.h5
+ o Average Reward: 629.77
+ o Best Reward: 883.81
+
+Model: ddqn_speed_1500.h5
+ o Average Reward: 581.70
+ o Best Reward: 910.40
+
+Model: ddqn_speed_1550.h5
+ o Average Reward: 391.23
+ o Best Reward: 597.76
+
+Model: ddqn_speed_1750.h5
+ o Average Reward: 502.06
+ o Best Reward: 848.10
+
+Model: ddqn_speed_2000.h5
+ o Average Reward: 396.72
+ o Best Reward: 644.36

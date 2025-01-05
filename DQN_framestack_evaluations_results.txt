@@ -1,0 +1,472 @@
+Model loaded successfully from dqn_framestack_100.h5
+ evaluating...
+[Eval] Model: dqn_framestack_100.h5, Episode 1/20 - Reward: -40.63
+[Eval] Model: dqn_framestack_100.h5, Episode 2/20 - Reward: -93.44
+[Eval] Model: dqn_framestack_100.h5, Episode 3/20 - Reward: -89.09
+[Eval] Model: dqn_framestack_100.h5, Episode 4/20 - Reward: -88.72
+[Eval] Model: dqn_framestack_100.h5, Episode 5/20 - Reward: 21.21
+[Eval] Model: dqn_framestack_100.h5, Episode 6/20 - Reward: 9.86
+[Eval] Model: dqn_framestack_100.h5, Episode 7/20 - Reward: -77.56
+[Eval] Model: dqn_framestack_100.h5, Episode 8/20 - Reward: -93.20
+[Eval] Model: dqn_framestack_100.h5, Episode 8/20 - Reward: -93.20
+[Eval] Model: dqn_framestack_100.h5, Episode 9/20 - Reward: -89.93
+[Eval] Model: dqn_framestack_100.h5, Episode 9/20 - Reward: -89.93
+[Eval] Model: dqn_framestack_100.h5, Episode 10/20 - Reward: -55.78
+[Eval] Model: dqn_framestack_100.h5, Episode 10/20 - Reward: -55.78
+[Eval] Model: dqn_framestack_100.h5, Episode 11/20 - Reward: -90.23
+[Eval] Model: dqn_framestack_100.h5, Episode 11/20 - Reward: -90.23
+[Eval] Model: dqn_framestack_100.h5, Episode 12/20 - Reward: -89.97
+[Eval] Model: dqn_framestack_100.h5, Episode 12/20 - Reward: -89.97
+[Eval] Model: dqn_framestack_100.h5, Episode 13/20 - Reward: -54.55
+[Eval] Model: dqn_framestack_100.h5, Episode 14/20 - Reward: -38.91
+[Eval] Model: dqn_framestack_100.h5, Episode 15/20 - Reward: -59.12
+[Eval] Model: dqn_framestack_100.h5, Episode 16/20 - Reward: -89.69
+[Eval] Model: dqn_framestack_100.h5, Episode 17/20 - Reward: 16.36
+[Eval] Model: dqn_framestack_100.h5, Episode 18/20 - Reward: -45.51
+[Eval] Model: dqn_framestack_100.h5, Episode 19/20 - Reward: -89.32
+[Eval] Model: dqn_framestack_100.h5, Episode 20/20 - Reward: -41.75
+
+Evaluation Complete for: dqn_framestack_100.h5
+Average Reward over 20 episodes: -59.00
+Highest Reward over 20 episodes: 21.21
+
+
+Evaluating model: dqn_framestack_300.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_300.h5
+ evaluating...
+[Eval] Model: dqn_framestack_300.h5, Episode 1/20 - Reward: -8.13
+[Eval] Model: dqn_framestack_300.h5, Episode 2/20 - Reward: -34.85
+[Eval] Model: dqn_framestack_300.h5, Episode 3/20 - Reward: 543.79
+[Eval] Model: dqn_framestack_300.h5, Episode 4/20 - Reward: 67.19
+[Eval] Model: dqn_framestack_300.h5, Episode 5/20 - Reward: 378.53
+[Eval] Model: dqn_framestack_300.h5, Episode 6/20 - Reward: 475.09
+[Eval] Model: dqn_framestack_300.h5, Episode 7/20 - Reward: 269.34
+[Eval] Model: dqn_framestack_300.h5, Episode 8/20 - Reward: 351.05
+[Eval] Model: dqn_framestack_300.h5, Episode 16/20 - Reward: 514.62
+[Eval] Model: dqn_framestack_300.h5, Episode 17/20 - Reward: -82.58
+[Eval] Model: dqn_framestack_300.h5, Episode 18/20 - Reward: 464.63
+[Eval] Model: dqn_framestack_300.h5, Episode 19/20 - Reward: 450.15
+[Eval] Model: dqn_framestack_300.h5, Episode 20/20 - Reward: -1.46
+
+Evaluation Complete for: dqn_framestack_300.h5
+Average Reward over 20 episodes: 299.46
+Highest Reward over 20 episodes: 657.04
+
+
+Evaluating model: dqn_framestack_500.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.  
+Model loaded successfully from dqn_framestack_500.h5
+ evaluating...
+[Eval] Model: dqn_framestack_500.h5, Episode 1/20 - Reward: -93.51
+[Eval] Model: dqn_framestack_500.h5, Episode 2/20 - Reward: -89.29
+[Eval] Model: dqn_framestack_500.h5, Episode 3/20 - Reward: -57.45
+[Eval] Model: dqn_framestack_500.h5, Episode 4/20 - Reward: -91.45
+[Eval] Model: dqn_framestack_500.h5, Episode 5/20 - Reward: -87.22
+[Eval] Model: dqn_framestack_500.h5, Episode 6/20 - Reward: -47.92
+[Eval] Model: dqn_framestack_500.h5, Episode 7/20 - Reward: 384.32
+[Eval] Model: dqn_framestack_500.h5, Episode 8/20 - Reward: 315.34
+[Eval] Model: dqn_framestack_500.h5, Episode 9/20 - Reward: -75.35
+[Eval] Model: dqn_framestack_500.h5, Episode 10/20 - Reward: -90.00
+[Eval] Model: dqn_framestack_500.h5, Episode 11/20 - Reward: -58.49
+[Eval] Model: dqn_framestack_500.h5, Episode 12/20 - Reward: -89.76
+[Eval] Model: dqn_framestack_500.h5, Episode 13/20 - Reward: -93.38
+[Eval] Model: dqn_framestack_500.h5, Episode 14/20 - Reward: 396.38
+[Eval] Model: dqn_framestack_500.h5, Episode 15/20 - Reward: 292.23
+[Eval] Model: dqn_framestack_500.h5, Episode 16/20 - Reward: -92.59
+[Eval] Model: dqn_framestack_500.h5, Episode 17/20 - Reward: -93.88
+[Eval] Model: dqn_framestack_500.h5, Episode 18/20 - Reward: -87.50
+[Eval] Model: dqn_framestack_500.h5, Episode 19/20 - Reward: -93.87
+[Eval] Model: dqn_framestack_500.h5, Episode 20/20 - Reward: -86.25
+
+Evaluation Complete for: dqn_framestack_500.h5
+Average Reward over 20 episodes: 3.02
+Highest Reward over 20 episodes: 396.38
+
+
+Evaluating model: dqn_framestack_750.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_750.h5
+ evaluating...
+[Eval] Model: dqn_framestack_750.h5, Episode 1/20 - Reward: -87.88
+[Eval] Model: dqn_framestack_750.h5, Episode 2/20 - Reward: 420.60
+[Eval] Model: dqn_framestack_750.h5, Episode 3/20 - Reward: -92.22
+[Eval] Model: dqn_framestack_750.h5, Episode 4/20 - Reward: 400.00
+[Eval] Model: dqn_framestack_750.h5, Episode 5/20 - Reward: 321.26
+[Eval] Model: dqn_framestack_750.h5, Episode 6/20 - Reward: -90.23
+[Eval] Model: dqn_framestack_750.h5, Episode 7/20 - Reward: -88.81
+[Eval] Model: dqn_framestack_750.h5, Episode 8/20 - Reward: 560.58
+[Eval] Model: dqn_framestack_750.h5, Episode 9/20 - Reward: 330.51
+[Eval] Model: dqn_framestack_750.h5, Episode 10/20 - Reward: -89.17
+[Eval] Model: dqn_framestack_750.h5, Episode 11/20 - Reward: 125.49
+[Eval] Model: dqn_framestack_750.h5, Episode 12/20 - Reward: 162.99
+[Eval] Model: dqn_framestack_750.h5, Episode 13/20 - Reward: 240.21
+[Eval] Model: dqn_framestack_750.h5, Episode 14/20 - Reward: 454.35
+[Eval] Model: dqn_framestack_750.h5, Episode 15/20 - Reward: 344.44
+[Eval] Model: dqn_framestack_750.h5, Episode 16/20 - Reward: 279.66
+[Eval] Model: dqn_framestack_750.h5, Episode 17/20 - Reward: 240.66
+[Eval] Model: dqn_framestack_750.h5, Episode 18/20 - Reward: 374.07
+[Eval] Model: dqn_framestack_750.h5, Episode 19/20 - Reward: -11.03
+[Eval] Model: dqn_framestack_750.h5, Episode 20/20 - Reward: 275.45
+
+Evaluation Complete for: dqn_framestack_750.h5
+Average Reward over 20 episodes: 203.55
+Highest Reward over 20 episodes: 560.58
+
+
+Evaluating model: dqn_framestack_1000.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1000.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1000.h5, Episode 1/20 - Reward: 337.30
+[Eval] Model: dqn_framestack_1000.h5, Episode 2/20 - Reward: 382.39
+[Eval] Model: dqn_framestack_1000.h5, Episode 3/20 - Reward: 360.84
+[Eval] Model: dqn_framestack_1000.h5, Episode 4/20 - Reward: 413.07
+[Eval] Model: dqn_framestack_1000.h5, Episode 5/20 - Reward: -28.27
+[Eval] Model: dqn_framestack_1000.h5, Episode 6/20 - Reward: 442.86
+[Eval] Model: dqn_framestack_1000.h5, Episode 7/20 - Reward: 507.84
+[Eval] Model: dqn_framestack_1000.h5, Episode 8/20 - Reward: 251.27
+[Eval] Model: dqn_framestack_1000.h5, Episode 9/20 - Reward: 154.42
+[Eval] Model: dqn_framestack_1000.h5, Episode 10/20 - Reward: 220.00
+[Eval] Model: dqn_framestack_1000.h5, Episode 11/20 - Reward: 84.40
+[Eval] Model: dqn_framestack_1000.h5, Episode 12/20 - Reward: 315.73
+[Eval] Model: dqn_framestack_1000.h5, Episode 13/20 - Reward: 440.07
+[Eval] Model: dqn_framestack_1000.h5, Episode 14/20 - Reward: 315.87
+[Eval] Model: dqn_framestack_1000.h5, Episode 15/20 - Reward: 367.74
+[Eval] Model: dqn_framestack_1000.h5, Episode 16/20 - Reward: 371.52
+[Eval] Model: dqn_framestack_1000.h5, Episode 17/20 - Reward: 316.13
+[Eval] Model: dqn_framestack_1000.h5, Episode 18/20 - Reward: 529.37
+[Eval] Model: dqn_framestack_1000.h5, Episode 19/20 - Reward: 387.18
+[Eval] Model: dqn_framestack_1000.h5, Episode 20/20 - Reward: 263.01
+
+Evaluation Complete for: dqn_framestack_1000.h5
+Average Reward over 20 episodes: 321.64
+Highest Reward over 20 episodes: 529.37
+
+
+Evaluating model: dqn_framestack_1250.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1250.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1250.h5, Episode 1/20 - Reward: 531.39
+[Eval] Model: dqn_framestack_1250.h5, Episode 2/20 - Reward: 410.90
+[Eval] Model: dqn_framestack_1250.h5, Episode 3/20 - Reward: 609.79
+[Eval] Model: dqn_framestack_1250.h5, Episode 4/20 - Reward: 546.39
+[Eval] Model: dqn_framestack_1250.h5, Episode 5/20 - Reward: -52.53
+[Eval] Model: dqn_framestack_1250.h5, Episode 6/20 - Reward: 449.21
+[Eval] Model: dqn_framestack_1250.h5, Episode 7/20 - Reward: 641.61
+[Eval] Model: dqn_framestack_1250.h5, Episode 8/20 - Reward: 556.67
+[Eval] Model: dqn_framestack_1250.h5, Episode 9/20 - Reward: 428.53
+[Eval] Model: dqn_framestack_1250.h5, Episode 10/20 - Reward: 538.89
+[Eval] Model: dqn_framestack_1250.h5, Episode 11/20 - Reward: 231.03
+[Eval] Model: dqn_framestack_1250.h5, Episode 12/20 - Reward: 497.27
+[Eval] Model: dqn_framestack_1250.h5, Episode 13/20 - Reward: 428.62
+[Eval] Model: dqn_framestack_1250.h5, Episode 14/20 - Reward: 67.27
+[Eval] Model: dqn_framestack_1250.h5, Episode 15/20 - Reward: 293.44
+[Eval] Model: dqn_framestack_1250.h5, Episode 16/20 - Reward: 435.71
+[Eval] Model: dqn_framestack_1250.h5, Episode 17/20 - Reward: 619.59
+[Eval] Model: dqn_framestack_1250.h5, Episode 18/20 - Reward: 504.36
+[Eval] Model: dqn_framestack_1250.h5, Episode 19/20 - Reward: 574.50
+[Eval] Model: dqn_framestack_1250.h5, Episode 20/20 - Reward: 445.79
+
+Evaluation Complete for: dqn_framestack_1250.h5
+Average Reward over 20 episodes: 437.92
+Highest Reward over 20 episodes: 641.61
+
+
+Evaluating model: dqn_framestack_1300.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1300.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1300.h5, Episode 1/20 - Reward: 632.39
+[Eval] Model: dqn_framestack_1300.h5, Episode 2/20 - Reward: 65.52
+[Eval] Model: dqn_framestack_1300.h5, Episode 3/20 - Reward: 665.15
+[Eval] Model: dqn_framestack_1300.h5, Episode 4/20 - Reward: 13.58
+[Eval] Model: dqn_framestack_1300.h5, Episode 5/20 - Reward: 455.93
+[Eval] Model: dqn_framestack_1300.h5, Episode 6/20 - Reward: 637.93
+[Eval] Model: dqn_framestack_1300.h5, Episode 7/20 - Reward: 518.12
+[Eval] Model: dqn_framestack_1300.h5, Episode 8/20 - Reward: 408.53
+[Eval] Model: dqn_framestack_1300.h5, Episode 9/20 - Reward: 262.46
+[Eval] Model: dqn_framestack_1300.h5, Episode 10/20 - Reward: -6.45
+[Eval] Model: dqn_framestack_1300.h5, Episode 11/20 - Reward: 667.86
+[Eval] Model: dqn_framestack_1300.h5, Episode 12/20 - Reward: 683.27
+[Eval] Model: dqn_framestack_1300.h5, Episode 13/20 - Reward: 693.77
+[Eval] Model: dqn_framestack_1300.h5, Episode 14/20 - Reward: 309.09
+[Eval] Model: dqn_framestack_1300.h5, Episode 15/20 - Reward: 408.47
+[Eval] Model: dqn_framestack_1300.h5, Episode 16/20 - Reward: 574.91
+[Eval] Model: dqn_framestack_1300.h5, Episode 17/20 - Reward: 589.66
+[Eval] Model: dqn_framestack_1300.h5, Episode 18/20 - Reward: 690.61
+[Eval] Model: dqn_framestack_1300.h5, Episode 19/20 - Reward: 681.35
+[Eval] Model: dqn_framestack_1300.h5, Episode 20/20 - Reward: 266.67
+
+Evaluation Complete for: dqn_framestack_1300.h5
+Average Reward over 20 episodes: 460.94
+Highest Reward over 20 episodes: 693.77
+
+
+Evaluating model: dqn_framestack_1350.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1350.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1350.h5, Episode 1/20 - Reward: 580.70
+[Eval] Model: dqn_framestack_1350.h5, Episode 2/20 - Reward: 541.11
+[Eval] Model: dqn_framestack_1350.h5, Episode 3/20 - Reward: 450.34
+[Eval] Model: dqn_framestack_1350.h5, Episode 4/20 - Reward: 657.81
+[Eval] Model: dqn_framestack_1350.h5, Episode 5/20 - Reward: 671.13
+[Eval] Model: dqn_framestack_1350.h5, Episode 6/20 - Reward: 260.13
+[Eval] Model: dqn_framestack_1350.h5, Episode 7/20 - Reward: 394.95
+[Eval] Model: dqn_framestack_1350.h5, Episode 8/20 - Reward: 265.38
+[Eval] Model: dqn_framestack_1350.h5, Episode 9/20 - Reward: 653.79
+[Eval] Model: dqn_framestack_1350.h5, Episode 10/20 - Reward: 492.72
+[Eval] Model: dqn_framestack_1350.h5, Episode 11/20 - Reward: 495.59
+[Eval] Model: dqn_framestack_1350.h5, Episode 12/20 - Reward: 288.20
+[Eval] Model: dqn_framestack_1350.h5, Episode 13/20 - Reward: 378.79
+[Eval] Model: dqn_framestack_1350.h5, Episode 14/20 - Reward: 433.78
+[Eval] Model: dqn_framestack_1350.h5, Episode 15/20 - Reward: 520.00
+[Eval] Model: dqn_framestack_1350.h5, Episode 16/20 - Reward: 549.64
+[Eval] Model: dqn_framestack_1350.h5, Episode 17/20 - Reward: 377.55
+[Eval] Model: dqn_framestack_1350.h5, Episode 18/20 - Reward: 636.43
+[Eval] Model: dqn_framestack_1350.h5, Episode 19/20 - Reward: 538.44
+[Eval] Model: dqn_framestack_1350.h5, Episode 20/20 - Reward: 557.44
+
+Evaluation Complete for: dqn_framestack_1350.h5
+Average Reward over 20 episodes: 487.20
+Highest Reward over 20 episodes: 671.13
+
+
+Evaluating model: dqn_framestack_1400.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1400.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1400.h5, Episode 1/20 - Reward: 518.89
+[Eval] Model: dqn_framestack_1400.h5, Episode 2/20 - Reward: 573.15
+[Eval] Model: dqn_framestack_1400.h5, Episode 3/20 - Reward: 73.47
+[Eval] Model: dqn_framestack_1400.h5, Episode 4/20 - Reward: 356.08
+[Eval] Model: dqn_framestack_1400.h5, Episode 5/20 - Reward: 193.55
+[Eval] Model: dqn_framestack_1400.h5, Episode 6/20 - Reward: 628.40
+[Eval] Model: dqn_framestack_1400.h5, Episode 7/20 - Reward: 104.72
+[Eval] Model: dqn_framestack_1400.h5, Episode 8/20 - Reward: 537.22
+[Eval] Model: dqn_framestack_1400.h5, Episode 9/20 - Reward: 461.90
+[Eval] Model: dqn_framestack_1400.h5, Episode 10/20 - Reward: 370.00
+[Eval] Model: dqn_framestack_1400.h5, Episode 11/20 - Reward: 488.41
+[Eval] Model: dqn_framestack_1400.h5, Episode 12/20 - Reward: 447.69
+[Eval] Model: dqn_framestack_1400.h5, Episode 13/20 - Reward: 561.65
+[Eval] Model: dqn_framestack_1400.h5, Episode 14/20 - Reward: 593.10
+[Eval] Model: dqn_framestack_1400.h5, Episode 15/20 - Reward: 797.44
+[Eval] Model: dqn_framestack_1400.h5, Episode 16/20 - Reward: 372.03
+[Eval] Model: dqn_framestack_1400.h5, Episode 17/20 - Reward: 71.23
+[Eval] Model: dqn_framestack_1400.h5, Episode 18/20 - Reward: 527.91
+[Eval] Model: dqn_framestack_1400.h5, Episode 19/20 - Reward: 296.61
+[Eval] Model: dqn_framestack_1400.h5, Episode 20/20 - Reward: 47.86
+
+Evaluation Complete for: dqn_framestack_1400.h5
+Average Reward over 20 episodes: 401.07
+Highest Reward over 20 episodes: 797.44
+
+
+Evaluating model: dqn_framestack_1450.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1450.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1450.h5, Episode 1/20 - Reward: 572.41
+[Eval] Model: dqn_framestack_1450.h5, Episode 2/20 - Reward: 468.49
+[Eval] Model: dqn_framestack_1450.h5, Episode 3/20 - Reward: 582.93
+[Eval] Model: dqn_framestack_1450.h5, Episode 4/20 - Reward: 376.82
+[Eval] Model: dqn_framestack_1450.h5, Episode 5/20 - Reward: 477.70
+[Eval] Model: dqn_framestack_1450.h5, Episode 6/20 - Reward: 591.80
+[Eval] Model: dqn_framestack_1450.h5, Episode 7/20 - Reward: 514.55
+[Eval] Model: dqn_framestack_1450.h5, Episode 8/20 - Reward: 475.54
+[Eval] Model: dqn_framestack_1450.h5, Episode 9/20 - Reward: 581.82
+[Eval] Model: dqn_framestack_1450.h5, Episode 10/20 - Reward: 322.94
+[Eval] Model: dqn_framestack_1450.h5, Episode 11/20 - Reward: 519.05
+[Eval] Model: dqn_framestack_1450.h5, Episode 12/20 - Reward: 500.69
+[Eval] Model: dqn_framestack_1450.h5, Episode 13/20 - Reward: 636.33
+[Eval] Model: dqn_framestack_1450.h5, Episode 14/20 - Reward: 562.25
+[Eval] Model: dqn_framestack_1450.h5, Episode 15/20 - Reward: 712.77
+[Eval] Model: dqn_framestack_1450.h5, Episode 16/20 - Reward: 390.91
+[Eval] Model: dqn_framestack_1450.h5, Episode 17/20 - Reward: 395.50
+[Eval] Model: dqn_framestack_1450.h5, Episode 18/20 - Reward: 401.62
+[Eval] Model: dqn_framestack_1450.h5, Episode 19/20 - Reward: 359.88
+[Eval] Model: dqn_framestack_1450.h5, Episode 20/20 - Reward: 294.46
+
+Evaluation Complete for: dqn_framestack_1450.h5
+Average Reward over 20 episodes: 486.92
+Highest Reward over 20 episodes: 712.77
+
+
+Evaluating model: dqn_framestack_1500.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1500.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1500.h5, Episode 1/20 - Reward: 220.69
+[Eval] Model: dqn_framestack_1500.h5, Episode 2/20 - Reward: 323.57
+[Eval] Model: dqn_framestack_1500.h5, Episode 3/20 - Reward: 276.76
+[Eval] Model: dqn_framestack_1500.h5, Episode 4/20 - Reward: 284.15
+[Eval] Model: dqn_framestack_1500.h5, Episode 5/20 - Reward: 627.97
+[Eval] Model: dqn_framestack_1500.h5, Episode 6/20 - Reward: 462.28
+[Eval] Model: dqn_framestack_1500.h5, Episode 7/20 - Reward: 92.31
+[Eval] Model: dqn_framestack_1500.h5, Episode 8/20 - Reward: 408.83
+[Eval] Model: dqn_framestack_1500.h5, Episode 9/20 - Reward: 351.18
+[Eval] Model: dqn_framestack_1500.h5, Episode 10/20 - Reward: 142.86
+[Eval] Model: dqn_framestack_1500.h5, Episode 11/20 - Reward: 245.86
+[Eval] Model: dqn_framestack_1500.h5, Episode 12/20 - Reward: 130.48
+[Eval] Model: dqn_framestack_1500.h5, Episode 13/20 - Reward: 29.03
+[Eval] Model: dqn_framestack_1500.h5, Episode 14/20 - Reward: 149.22
+[Eval] Model: dqn_framestack_1500.h5, Episode 15/20 - Reward: -19.25
+[Eval] Model: dqn_framestack_1500.h5, Episode 16/20 - Reward: 221.07
+[Eval] Model: dqn_framestack_1500.h5, Episode 17/20 - Reward: 403.97
+[Eval] Model: dqn_framestack_1500.h5, Episode 18/20 - Reward: 194.55
+[Eval] Model: dqn_framestack_1500.h5, Episode 19/20 - Reward: 388.14
+[Eval] Model: dqn_framestack_1500.h5, Episode 20/20 - Reward: 188.14
+
+Evaluation Complete for: dqn_framestack_1500.h5
+Average Reward over 20 episodes: 256.09
+Highest Reward over 20 episodes: 627.97
+
+
+Evaluating model: dqn_framestack_1550.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1550.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1550.h5, Episode 1/20 - Reward: 661.90
+[Eval] Model: dqn_framestack_1550.h5, Episode 2/20 - Reward: 386.49
+[Eval] Model: dqn_framestack_1550.h5, Episode 3/20 - Reward: 482.76
+[Eval] Model: dqn_framestack_1550.h5, Episode 4/20 - Reward: 513.24
+[Eval] Model: dqn_framestack_1550.h5, Episode 5/20 - Reward: 815.25
+[Eval] Model: dqn_framestack_1550.h5, Episode 6/20 - Reward: 777.86
+[Eval] Model: dqn_framestack_1550.h5, Episode 7/20 - Reward: 461.48
+[Eval] Model: dqn_framestack_1550.h5, Episode 8/20 - Reward: 350.16
+[Eval] Model: dqn_framestack_1550.h5, Episode 9/20 - Reward: 428.12
+[Eval] Model: dqn_framestack_1550.h5, Episode 10/20 - Reward: 356.00
+[Eval] Model: dqn_framestack_1550.h5, Episode 11/20 - Reward: 409.36
+[Eval] Model: dqn_framestack_1550.h5, Episode 12/20 - Reward: 636.46
+[Eval] Model: dqn_framestack_1550.h5, Episode 13/20 - Reward: 576.87
+[Eval] Model: dqn_framestack_1550.h5, Episode 14/20 - Reward: 543.33
+[Eval] Model: dqn_framestack_1550.h5, Episode 15/20 - Reward: 469.08
+[Eval] Model: dqn_framestack_1550.h5, Episode 16/20 - Reward: 330.68
+[Eval] Model: dqn_framestack_1550.h5, Episode 17/20 - Reward: 586.83
+[Eval] Model: dqn_framestack_1550.h5, Episode 18/20 - Reward: 370.97
+[Eval] Model: dqn_framestack_1550.h5, Episode 19/20 - Reward: 94.33
+[Eval] Model: dqn_framestack_1550.h5, Episode 20/20 - Reward: 591.73
+
+Evaluation Complete for: dqn_framestack_1550.h5
+Average Reward over 20 episodes: 492.15
+Highest Reward over 20 episodes: 815.25
+
+
+Evaluating model: dqn_framestack_1750.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_1750.h5
+ evaluating...
+[Eval] Model: dqn_framestack_1750.h5, Episode 1/20 - Reward: 39.60
+[Eval] Model: dqn_framestack_1750.h5, Episode 2/20 - Reward: 500.73
+[Eval] Model: dqn_framestack_1750.h5, Episode 3/20 - Reward: 79.31
+[Eval] Model: dqn_framestack_1750.h5, Episode 4/20 - Reward: 369.92
+[Eval] Model: dqn_framestack_1750.h5, Episode 5/20 - Reward: 208.68
+[Eval] Model: dqn_framestack_1750.h5, Episode 6/20 - Reward: 220.39
+[Eval] Model: dqn_framestack_1750.h5, Episode 7/20 - Reward: 331.51
+[Eval] Model: dqn_framestack_1750.h5, Episode 8/20 - Reward: 424.24
+[Eval] Model: dqn_framestack_1750.h5, Episode 9/20 - Reward: 78.99
+[Eval] Model: dqn_framestack_1750.h5, Episode 10/20 - Reward: 326.17
+[Eval] Model: dqn_framestack_1750.h5, Episode 11/20 - Reward: 542.86
+[Eval] Model: dqn_framestack_1750.h5, Episode 12/20 - Reward: 627.27
+[Eval] Model: dqn_framestack_1750.h5, Episode 13/20 - Reward: 345.61
+[Eval] Model: dqn_framestack_1750.h5, Episode 14/20 - Reward: 386.75
+[Eval] Model: dqn_framestack_1750.h5, Episode 15/20 - Reward: 481.88
+[Eval] Model: dqn_framestack_1750.h5, Episode 16/20 - Reward: 168.53
+[Eval] Model: dqn_framestack_1750.h5, Episode 17/20 - Reward: 267.89
+[Eval] Model: dqn_framestack_1750.h5, Episode 18/20 - Reward: 230.36
+[Eval] Model: dqn_framestack_1750.h5, Episode 19/20 - Reward: 582.48
+[Eval] Model: dqn_framestack_1750.h5, Episode 20/20 - Reward: 318.37
+
+Evaluation Complete for: dqn_framestack_1750.h5
+Average Reward over 20 episodes: 326.58
+Highest Reward over 20 episodes: 627.27
+
+
+Evaluating model: dqn_framestack_2000.h5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Model loaded successfully from dqn_framestack_2000.h5
+ evaluating...
+[Eval] Model: dqn_framestack_2000.h5, Episode 1/20 - Reward: 581.10
+[Eval] Model: dqn_framestack_2000.h5, Episode 2/20 - Reward: 426.72
+[Eval] Model: dqn_framestack_2000.h5, Episode 3/20 - Reward: 398.18
+[Eval] Model: dqn_framestack_2000.h5, Episode 4/20 - Reward: 344.10
+[Eval] Model: dqn_framestack_2000.h5, Episode 5/20 - Reward: 473.64
+[Eval] Model: dqn_framestack_2000.h5, Episode 6/20 - Reward: 318.01
+[Eval] Model: dqn_framestack_2000.h5, Episode 7/20 - Reward: 151.68
+[Eval] Model: dqn_framestack_2000.h5, Episode 8/20 - Reward: 352.38
+[Eval] Model: dqn_framestack_2000.h5, Episode 9/20 - Reward: 393.67
+[Eval] Model: dqn_framestack_2000.h5, Episode 10/20 - Reward: 595.97
+[Eval] Model: dqn_framestack_2000.h5, Episode 11/20 - Reward: 78.95
+[Eval] Model: dqn_framestack_2000.h5, Episode 12/20 - Reward: 305.50
+[Eval] Model: dqn_framestack_2000.h5, Episode 13/20 - Reward: 473.03
+[Eval] Model: dqn_framestack_2000.h5, Episode 14/20 - Reward: 383.87
+[Eval] Model: dqn_framestack_2000.h5, Episode 15/20 - Reward: 403.68
+[Eval] Model: dqn_framestack_2000.h5, Episode 16/20 - Reward: 378.72
+[Eval] Model: dqn_framestack_2000.h5, Episode 17/20 - Reward: 481.56
+[Eval] Model: dqn_framestack_2000.h5, Episode 18/20 - Reward: 300.00
+[Eval] Model: dqn_framestack_2000.h5, Episode 19/20 - Reward: 477.70
+[Eval] Model: dqn_framestack_2000.h5, Episode 20/20 - Reward: 363.16
+
+Evaluation Complete for: dqn_framestack_2000.h5
+Average Reward over 20 episodes: 384.08
+Highest Reward over 20 episodes: 595.97
+
+Evaluation Summary:
+
+Model: dqn_framestack_100.h5
+ o Average Reward: -59.00
+ o Best Reward: 21.21
+
+Model: dqn_framestack_300.h5
+ o Average Reward: 299.46
+ o Best Reward: 657.04
+
+Model: dqn_framestack_500.h5
+ o Average Reward: 3.02
+ o Best Reward: 396.38
+
+Model: dqn_framestack_750.h5
+ o Average Reward: 203.55
+ o Best Reward: 560.58
+
+Model: dqn_framestack_1000.h5
+ o Average Reward: 321.64
+ o Best Reward: 529.37
+
+Model: dqn_framestack_1250.h5
+ o Average Reward: 437.92
+ o Best Reward: 641.61
+
+Model: dqn_framestack_1300.h5
+ o Average Reward: 460.94
+ o Best Reward: 693.77
+
+Model: dqn_framestack_1350.h5
+ o Average Reward: 487.20
+ o Best Reward: 671.13
+
+Model: dqn_framestack_1400.h5
+ o Average Reward: 401.07
+ o Best Reward: 797.44
+
+Model: dqn_framestack_1450.h5
+ o Average Reward: 486.92
+ o Best Reward: 712.77
+
+Model: dqn_framestack_1500.h5
+ o Average Reward: 256.09
+ o Best Reward: 627.97
+
+Model: dqn_framestack_1550.h5
+ o Average Reward: 492.15
+ o Best Reward: 815.25
+
+Model: dqn_framestack_1750.h5
+ o Average Reward: 326.58
+ o Best Reward: 627.27
+
+Model: dqn_framestack_2000.h5
+ o Average Reward: 384.08
+ o Best Reward: 595.97
